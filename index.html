@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Aqarmgt</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/reality-icon.css">
+        <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+        <link rel="stylesheet" type="text/css" href="css/cubeportfolio.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" type="text/css" href="css/settings.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/range-Slider.min.css">
+        <link rel="stylesheet" type="text/css" href="css/search.css">
+        <link rel="icon" href="images/favicon.png">
+
+        <style type="text/css">
+            #fix_img{
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+
+    </head>
+<body> 
+
+    <!--Loader-->
+    <!--
+    <div class="loader">
+        <div class="span">
+            <div class="location_indicator"></div>
+        </div>
+    </div>
+    -->
+    <div id="loaderi">
+      <div id="loaderbox" style="width:0px; top:80%; right:53%; position:absolute;">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+     <!--Loader-->  
+ 
+
+    
+<!--Advance Search-->
+<!--<div class="blue_navi">
+  <div class="container"> 
+  <div class="row">
+  <div class="property-query-area">
+     
+    <form class="callus clearfix">
+      <div class="col-md-6 col-sm-6">
+        <div class="single-query form-group">
+          <input type="text" class="keyword-input" placeholder="Keyword (e.g. 'office')">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="single-query form-group">
+          <div class="intro">
+            <select>
+              <option selected="" value="any">All Areas</option>
+              <option>Riyadh </option>
+              <option>Jeddah</option>
+              <option>Dammam</option>
+              <option>Al Khobar</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-12 text-right">
+        <button type="button" class="advanced text-center text-uppercase border_radius"><i class="icon-settings"></i>advanced</button>
+      </div>
+    </form>
+    <div class="opened">
+      <form class="callus clearfix">
+        <div class="col-md-3 col-sm-6">
+          <div class="single-query form-group">
+            <div class="intro">
+              <select>
+                <option class="active">Property Type</option>
+                <option>All Types</option>
+                <option>Building </option>
+                <option>Flat</option>
+                <option>Land</option>
+                <option>Shop</option>
+                <option>Villa</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="single-query form-group">
+            <div class="intro">
+              <select>
+                <option class="active">Child Option</option>
+                <option>All Option</option>
+                <option>Option A </option>
+                <option>Option B</option>
+                <option>Option C</option>
+                <option>Option D</option>
+                <option>Option E</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="row search-2">
+            <div class="col-md-6 col-sm-6">
+              <div class="single-query form-group">
+                <div class="intro">
+                  <select>
+                    <option class="active">Min Beds</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="single-query form-group">
+                <div class="intro">
+                  <select>
+                    <option class="active">Min Baths</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="single-query form-group">
+                <input type="text" class="keyword-input" placeholder="Min Area (sq ft)">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="single-query form-group">
+                <input type="text" class="keyword-input" placeholder="Max Area (sq ft)">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-5">
+          <div class="group-button-search">
+            <a data-toggle="collapse" href=".search-propertie-filters" class="more-filter">
+              <i class="fa fa-plus text-1" aria-hidden="true"></i><i class="fa fa-minus text-2 hide" aria-hidden="true"></i>
+              <div class="text-1">Show more search options</div>
+              <div class="text-2 hide">less more search options</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-8 col-sm-6">
+              <div class="single-query-slider">
+                <label>Price Range:</label>
+                <div class="price text-right">
+                  <span>SAR</span>
+                  <div class="leftLabel"></div>
+                  <span>to SAR</span>
+                  <div class="rightLabel"></div>
+                </div>
+                <div data-range_min="5000" data-range_max="1500000" data-cur_min="5000" data-cur_max="1500000" class="nstSlider">
+                  <div class="bar"></div>
+                  <div class="leftGrip"></div>
+                  <div class="rightGrip"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-right form-group">
+              <button type="submit" class="border_radius top15 btn-yellow bottom15">Search property</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="search-propertie-filters collapse">
+        <div class="container-2">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-4">
+              <div class="search-form-group white">
+                <input type="checkbox" name="check-box" />
+                <span>Home Theater</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-4">
+              <div class="search-form-group white">
+                <input type="checkbox" name="check-box" />
+                <span>Air Conditioning</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-4">
+              <div class="search-form-group white">
+                <input type="checkbox" name="check-box" />
+                <span>Balcony</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-4">
+              <div class="search-form-group white">
+                <input type="checkbox" name="check-box" />
+                <span>Gas Heat</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-4">
+              <div class="search-form-group white">
+                <input type="checkbox" name="check-box" />
+                <span>Washer and Dryer</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-4">
+              <div class="search-form-group white">
+                <input type="checkbox" name="check-box" />
+                <span>TV Cable</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-4">
+              <div class="search-form-group white">
+                <input type="checkbox" name="check-box" />
+                <span>Swimming Pool</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-4">
+              <div class="search-form-group white">
+                <input type="checkbox" name="check-box" />
+                <span>Lift</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>-->
+<!--Advance Search-->
+   <!--bg image -->
+    <section class="banner" style=" padding-top: 15px;padding-bottom: 0px;" id="fix_img">
+        <!--Header-->
+        <header class="white_header">
+            <nav class="navbar navbar-default bootsnav" style="background: rgba(255,255,255,.8)"    >
+                <div class="col-md-12" style=" padding-left: 30px">
+                  <!--<div class="attr-nav">
+                    <div class="upper-column info-box first">
+                      <div class="icons"><i class="icon-telephone114"></i></div>
+                      <ul>
+                        <li><strong>Phone Number</strong></li>
+                        <li>+1 900 234 567 - 68</li>
+                      </ul>
+                    </div>
+                  </div>-->
+                  <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index3.html"><img src="images/logo-mini.png" class="logo" alt=""></a>
+                    </div>
+                    <!-- End Header Navigation -->
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
+                            <li class="active"><a href="index.html">Home </a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="faq.html">Login / Register</a></li>                        
+                            <li><a href="#">العربية</a></li>
+                        </ul>
+                    </div>
+                </div><!-- container -->
+            </nav>
+        </header>
+    <!--Header-->
+        <br/><br/><br/>  
+        <div class="container">
+            <div class="row">
+            <!--
+              <div class="col-sm-8 text-left">
+                <h1 class="uppercase"><span>We don’t just find Great Deals</span> We Create them</h1>
+                <p class="bottom30">We have Properties in these Areas Discover your place to live Get started in few clicks</p>
+              </div>
+              -->
+                <div class="col-sm-4">
+                    <div class="row">
+                        <form class="callus clearfix border_radius" style="margin:  0px;">
+           
+                            <h2 class="text-uppercase t_yellow bottom20 text-center" style="color:#C3894A">advanced search</h2>
+                            <div class="single-query form-group top10">
+                                <input type="text" class="keyword-input" placeholder="Keyword (e.g. 'office')">
+                            </div>
+                            <div class="single-query top10">
+                              <div class="intro">
+                                <select>
+                                  <option selected="" value="any">Location</option>
+                                  <option>All areas</option>
+                                  <option>Bayonne </option>
+                                  <option>Greenville</option>
+                                  <option>Manhattan</option>
+                                  <option>Queens</option>
+                                  <option>The Heights</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="single-query top10">
+                              <div class="intro">
+                                <select>
+                                  <option class="active">Property Type</option>
+                                  <option>All areas</option>
+                                  <option>Bayonne </option>
+                                  <option>Greenville</option>
+                                  <option>Manhattan</option>
+                                  <option>Queens</option>
+                                  <option>The Heights</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="single-query top10">
+                              <div class="intro">
+                                <select>
+                                  <option class="active">Property Status</option>
+                                  <option>All areas</option>
+                                  <option>Bayonne </option>
+                                  <option>Greenville</option>
+                                  <option>Manhattan</option>
+                                  <option>Queens</option>
+                                  <option>The Heights</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="top10">
+                                <div class="single-query-slider">
+                                    <div class="clearfix top20">
+                                        <label class="pull-left">Price Range:</label>
+                                        <div class="price text-right">
+                                            <span>$</span>
+                                            <div class="leftLabel"></div>
+                                            <span>to $</span>
+                                            <div class="rightLabel"></div>
+                                        </div>
+                                    </div>
+                                    <div data-range_min="0" data-range_max="1500000" data-cur_min="0" data-cur_max="1500000" class="nstSlider">
+                                        <div class="bar"></div>
+                                        <div class="leftGrip"></div>
+                                        <div class="rightGrip"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group top15">
+                                <button type="submit" class="border_radius btn-blue text-uppercase">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div><!--col-sm-4-->
+            </div><!-- row -->    
+        </div><!-- container -->
+        <!--Maps-->
+        <br/><br/><br/>
+        
+        <section  id="banner-map">
+            <div class="container">
+                <h3 class="hidden">hiden</h3>
+                <div class="row property-list-area property-list-map-area">
+                    <div class="property-list-map">
+                        <div id="property-listing-map" class="" style="height:545px;"></div>
+                    </div>
+                </div>          
+            </div>
+        </section>        
+      <!-- Map Ends -->
+      
+         <!-- Gallery -->
+        <section id="property" class="padding " style="color:black">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <h2 class="uppercase">real estate properties</h2>
+                <p class="heading_space">We have Properties in these Areas View a list of Featured Properties.</p>
+              </div>
+            </div>
+            <div class="clearfix">
+              <div id="filters-property" class="cbp-l-filters-button text-center">
+                <div data-filter=".latest" class="cbp-filter-item-active cbp-filter-item">LATEST</div>
+                <div data-filter=".sale" class="cbp-filter-item">SALE</div>        
+                <div data-filter=".rent" class="cbp-filter-item">RENT</div>
+              </div>
+            </div>
+            <div id="property-gallery" class="cbp listing1">
+              <div class="cbp-item latest sale">
+                <div class="property_item">
+                  <div class="image">
+                    <a href=""><img src="images/listing1.jpg" alt="latest property" class="img-responsive"></a>
+                    <div class="price clearfix"> 
+                      <span class="tag pull-right">SAR 8,600 Per Month</span>
+                    </div>
+                    <span class="tag_t">For Sale</span> 
+                  </div>
+                  <div class="proerty_content">
+                    <div class="proerty_text">
+                      <h3 class="captlize"><a href="property_detail1.html">Demo Property A</a></h3>
+                      <p>Demo Address, Demo Street, Riyadh</p>
+                    </div>
+                    <div class="property_meta transparent"> 
+                      <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span> 
+                      <span><i class="icon-bed"></i>2 Office Rooms</span> 
+                      <span><i class="icon-safety-shower"></i>1 Bathroom</span>   
+                    </div>
+                    <div class="property_meta transparent bottom30">
+                      <span><i class="icon-old-television"></i>TV Lounge</span>
+                      <span><i class="icon-garage"></i>1 Garage</span>
+                      <span></span>
+                    </div>
+                    <div class="favroute clearfix">
+                      <p><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
+                      <ul class="pull-right">
+                        <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                        <li><a href="#seventy" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="toggle_share collapse" id="seventy">
+                      <ul>
+                        <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                        <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cbp-item latest rent">
+                <div class="property_item">
+                  <div class="image">
+                    <a href=""><img src="images/listing2.jpg" alt="latest property" class="img-responsive"></a>
+                    <div class="price clearfix"> 
+                      <span class="tag pull-right">SAR 8,600 Per Month</span>
+                    </div>
+                    <span class="tag_t">For Rent</span> 
+                  </div>
+                  <div class="proerty_content">
+                    <div class="proerty_text">
+                      <h3 class="captlize"><a href="property_detail2.html">Demo Property B</a></h3>
+                      <p>Demo Address, Demo Street, Dammam</p>
+                    </div>
+                    <div class="property_meta transparent"> 
+                      <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span> 
+                      <span><i class="icon-bed"></i>2 Office Rooms</span> 
+                      <span><i class="icon-safety-shower"></i>1 Bathroom</span>   
+                    </div>
+                    <div class="property_meta transparent bottom30">
+                      <span><i class="icon-old-television"></i>TV Lounge</span>
+                      <span><i class="icon-garage"></i>1 Garage</span>
+                      <span></span>
+                    </div>
+                    <div class="favroute clearfix">
+                      <p><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
+                      <ul class="pull-right">
+                        <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                        <li><a href="#six" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="toggle_share collapse" id="six">
+                      <ul>
+                        <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                        <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cbp-item latest sale">
+                <div class="property_item">
+                  <div class="image">
+                    <a href=""><img src="images/listing3.jpg" alt="latest property" class="img-responsive"></a>
+                    <div class="price clearfix"> 
+                      <span class="tag pull-right">SAR 8,600 Per Month</span>
+                    </div>
+                    <span class="tag_t">For Sale</span>
+                  </div>
+                  <div class="proerty_content">
+                    <div class="proerty_text">
+                      <h3 class="captlize"><a href="property_detail3.html">Demo Property C</a></h3>
+                      <p>Demo Address, Demo Street, Riyadh</p>
+                    </div>
+                    <div class="property_meta transparent"> 
+                      <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span> 
+                      <span><i class="icon-bed"></i>2 Office Rooms</span> 
+                      <span><i class="icon-safety-shower"></i>1 Bathroom</span>   
+                    </div>
+                    <div class="property_meta transparent bottom30">
+                      <span><i class="icon-old-television"></i>TV Lounge</span>
+                      <span><i class="icon-garage"></i>1 Garage</span>
+                      <span></span>
+                    </div>
+                    <div class="favroute clearfix">
+                      <p><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
+                      <ul class="pull-right">
+                        <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                        <li><a href="#three" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="toggle_share collapse" id="three">
+                      <ul>
+                        <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                        <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cbp-item latest rent">
+                <div class="property_item">
+                  <div class="image">
+                    <a href=""><img src="images/listing4.jpg" alt="latest property" class="img-responsive"></a>
+                    <div class="price clearfix"> 
+                      <span class="tag pull-right">SAR 8,600 Per Month</span>
+                    </div>
+                    <span class="tag_t">For Rent</span> 
+                  </div>
+                  <div class="proerty_content">
+                    <div class="proerty_text">
+                      <h3 class="captlize"><a href="property_detail1.html">Demo Property D</a></h3>
+                      <p>Demo Address, Demo Street, Riyadh</p>
+                    </div>
+                    <div class="property_meta transparent"> 
+                      <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span> 
+                      <span><i class="icon-bed"></i>2 Office Rooms</span> 
+                      <span><i class="icon-safety-shower"></i>1 Bathroom</span>   
+                    </div>
+                    <div class="property_meta transparent bottom30">
+                      <span><i class="icon-old-television"></i>TV Lounge</span>
+                      <span><i class="icon-garage"></i>1 Garage</span>
+                      <span></span>
+                    </div>
+                    <div class="favroute clearfix">
+                      <p><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
+                      <ul class="pull-right">
+                        <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                        <li><a href="#twe" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="toggle_share collapse" id="twe">
+                      <ul>
+                        <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                        <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cbp-item latest sale">
+                <div class="property_item">
+                  <div class="image">
+                    <a href=""><img src="images/listing8.jpg" alt="latest property" class="img-responsive"></a>
+                    <div class="price clearfix"> 
+                      <span class="solid">Sold Out</span>
+                    </div>
+                    <span class="tag_t">For Sale</span> 
+                  </div>
+                  <div class="proerty_content">
+                    <div class="proerty_text">
+                      <h3 class="captlize"><a href="property_detail2.html">Demo Property E</a></h3>
+                      <p>Demo Address, Demo Street, Riyadh</p>
+                    </div>
+                    <div class="property_meta transparent"> 
+                      <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span> 
+                      <span><i class="icon-bed"></i>2 Office Rooms</span> 
+                      <span><i class="icon-safety-shower"></i>1 Bathroom</span>   
+                    </div>
+                    <div class="property_meta transparent bottom30">
+                      <span><i class="icon-old-television"></i>TV Lounge</span>
+                      <span><i class="icon-garage"></i>1 Garage</span>
+                      <span></span>
+                    </div>
+                    <div class="favroute clearfix">
+                      <p><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
+                      <ul class="pull-right">
+                        <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                        <li><a href="#twomore" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="toggle_share collapse" id="twomore">
+                      <ul>
+                        <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                        <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cbp-item latest sale">
+                <div class="property_item">
+                  <div class="image">
+                    <a href=""><img src="images/listing6.jpg" alt="latest property" class="img-responsive"></a>
+                    <div class="price clearfix"> 
+                      <span class="tag pull-right">SAR 8,600 Per Month</span>
+                    </div>
+                    <span class="tag_t">For Sale</span>
+                  </div>
+                  <div class="proerty_content">
+                    <div class="proerty_text">
+                      <h3 class="captlize"><a href="property_detail3.html">Demo Property F</a></h3>
+                      <p>Demo Address, Demo Street, Riyadh</p>
+                    </div>
+                    <div class="property_meta transparent"> 
+                      <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span> 
+                      <span><i class="icon-bed"></i>2 Office Rooms</span> 
+                      <span><i class="icon-safety-shower"></i>1 Bathroom</span>   
+                    </div>
+                    <div class="property_meta transparent bottom30">
+                      <span><i class="icon-old-television"></i>TV Lounge</span>
+                      <span><i class="icon-garage"></i>1 Garage</span>
+                      <span></span>
+                    </div>
+                    <div class="favroute clearfix">
+                      <p><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
+                      <ul class="pull-right">
+                        <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                        <li><a href="#one" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="toggle_share collapse" id="one">
+                      <ul>
+                        <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                        <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cbp-item latest rent">
+                <div class="property_item">
+                  <div class="image">
+                    <a href=""><img src="images/listing7.jpg" alt="latest property" class="img-responsive"></a>
+                    <div class="price clearfix"> 
+                      <span class="tag pull-right">SAR 8,600 Per Month</span>
+                    </div>
+                    <span class="tag_t">For Rent</span> 
+                  </div>
+                  <div class="proerty_content">
+                    <div class="proerty_text">
+                      <h3 class="captlize"><a href="property_detail1.html">Demo Property G</a></h3>
+                      <p>Demo Address, Demo Street, Al Khobar</p>
+                    </div>
+                    <div class="property_meta transparent"> 
+                      <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span> 
+                      <span><i class="icon-bed"></i>2 Office Rooms</span> 
+                      <span><i class="icon-safety-shower"></i>1 Bathroom</span>   
+                    </div>
+                    <div class="property_meta transparent bottom30">
+                      <span><i class="icon-old-television"></i>TV Lounge</span>
+                      <span><i class="icon-garage"></i>1 Garage</span>
+                      <span></span>
+                    </div>
+                    <div class="favroute clearfix">
+                      <p><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
+                      <ul class="pull-right">
+                        <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                        <li><a href="#seven" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="toggle_share collapse" id="seven">
+                      <ul>
+                        <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                        <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cbp-item latest sale">
+                <div class="property_item">
+                  <div class="image">
+                    <a href=""><img src="images/listing5.jpg" alt="latest property" class="img-responsive"></a>
+                    <div class="price clearfix"> 
+                      <span class="tag pull-right">SAR 8,600 Per Month</span>
+                    </div>
+                    <span class="tag_t">For Sale</span> 
+                  </div>
+                  <div class="proerty_content">
+                    <div class="proerty_text">
+                      <h3 class="captlize"><a href="property_detail2.html">Demo Property H</a></h3>
+                      <p>Demo Address, Demo Street, Jeddah</p>
+                    </div>
+                    <div class="property_meta transparent"> 
+                      <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span> 
+                      <span><i class="icon-bed"></i>2 Office Rooms</span> 
+                      <span><i class="icon-safety-shower"></i>1 Bathroom</span>   
+                    </div>
+                    <div class="property_meta transparent bottom30">
+                      <span><i class="icon-old-television"></i>TV Lounge</span>
+                      <span><i class="icon-garage"></i>1 Garage</span>
+                      <span></span>
+                    </div>
+                    <div class="favroute clearfix">
+                      <p><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
+                      <ul class="pull-right">
+                        <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                        <li><a href="#onemore" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="toggle_share collapse" id="onemore">
+                      <ul>
+                        <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                        <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cbp-item latest sale">
+                <div class="property_item">
+                  <div class="image">
+                    <a href=""><img src="images/listing9.jpg" alt="latest property" class="img-responsive"></a>
+                    <div class="price clearfix"> 
+                      <span class="tag pull-right">SAR 8,600 Per Month</span>
+                    </div>
+                    <span class="tag_t">For Sale</span> 
+                    </div>
+                  <div class="proerty_content">
+                    <div class="proerty_text">
+                      <h3 class="captlize"><a href="property_detail3.html">Demo Property Is</a></h3>
+                      <p>Demo Address, Demo Street, Abqaiq</p>
+                    </div>
+                    <div class="property_meta transparent"> 
+                      <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span> 
+                      <span><i class="icon-bed"></i>2 Office Rooms</span> 
+                      <span><i class="icon-safety-shower"></i>1 Bathroom</span>   
+                    </div>
+                    <div class="property_meta transparent bottom30">
+                      <span><i class="icon-old-television"></i>TV Lounge</span>
+                      <span><i class="icon-garage"></i>1 Garage</span>
+                      <span></span>
+                    </div>
+                    <div class="favroute clearfix">
+                      <p><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
+                      <ul class="pull-right">
+                        <li><a href="javascript:void(0)"><i class="icon-like"></i></a></li>
+                        <li><a href="#sixy" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="toggle_share collapse" id="sixy">
+                      <ul>
+                        <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i> Facebook</a></li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i> Twitter</a></li>
+                        <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i> Vimeo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 text-center top20">
+               <a href="listing1.html" class="btn-dark border_radius uppercase margin40">more listings</a>
+            </div>
+          </div>
+        </section>
+        <!-- Gallery End -->
+
+        <!-- Types -->
+        <section id="types container">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <h2 class="uppercase">Property Types</h2>
+                <p class="heading_space">We are proud to present to you some of the best homes, apartments, offices e.g. across Australia for affordable prices.</p>
+              </div>
+            </div>
+            <div id="type-grid" class="cbp cbp-l-grid-mosaic-flat">
+              <div class="cbp-item">
+                <a href="">
+                  <img src="images/apartment.jpg" alt="">
+                  <div class="grid-caption">
+                    <h3>Apartments</h3>
+                    <span>51 Properties</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cbp-item">
+                <a href="">
+                  <img src="images/home.jpg" alt="">
+                  <div class="grid-caption">
+                    <h3>Single Family Home</h3>
+                    <span>30 Properties</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cbp-item">
+                <a href="">
+                  <img src="images/villa.jpg" alt="">
+                  <div class="grid-caption">
+                    <h3>Villa</h3>
+                    <span>10 Properties</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cbp-item">
+                <a href="">
+                  <img src="images/office.jpg" alt="">
+                  <div class="grid-caption">
+                    <h3>Offices</h3>
+                    <span>23 Properties</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cbp-item">
+                <a href="">
+                  <img src="images/land.jpg" alt="">
+                  <div class="grid-caption">
+                    <h3> Lands</h3>
+                    <span>102 Properties</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br/><br/><br/>
+        <!--Footer-->
+        <footer class="padding_top footer2 container">
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="footer_panel bottom30">
+                  <a href="javascript:void(0)" class="logo bottom30"><img src="images/logo-mini.png" alt="logo"></a>
+                  <p class="bottom15">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
+                    tempor cum consectetuer 
+                    adipiscing.
+                  </p>
+                  <ul class="social_share">
+                    <li><a href="javascript:void(0)" class="facebook"><i class="icon-facebook-1"></i></a></li>
+                    <li><a href="javascript:void(0)" class="twitter"><i class="icon-twitter-1"></i></a></li>
+                    <li><a href="javascript:void(0)" class="google"><i class="icon-google4"></i></a></li>
+                    <li><a href="javascript:void(0)" class="linkden"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="javascript:void(0)" class="vimo"><i class="icon-vimeo3"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="footer_panel bottom30">
+                  <h4 class="bottom30">Search by Area</h4>
+                  <ul class="area_search">
+                    <li><a href="javascript:void(0)"><i class="icon-icons74"></i>Bayonne, New Jersey</a></li>
+                    <li class="active"><a href="javascript:void(0)"><i class="icon-icons74"></i>Greenville, New Jersey</a></li>
+                    <li><a href="javascript:void(0)"> <i class="icon-icons74"></i>The Heights, New Jersey</a></li>
+                    <li><a href="javascript:void(0)"><i class="icon-icons74"></i>West Side, New York</a></li>
+                    <!--<li><a href="javascript:void(0)"><i class="icon-icons74"></i>Upper East Side, New York</a></li>-->
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="footer_panel bottom30">
+                    <h4>Twitter</h4>
+                    <a class="twitter-timeline"  href="https://twitter.com/NeftEnergies" data-widget-id="666934949795274752">Tweets by @NeftEnergies</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+              </div>
+
+
+              <div class="col-md-3 col-sm-6">
+                <div class="footer_panel bottom30">
+                  <h4 class="bottom30">Get in Touch</h4>
+                  <ul class="getin_touch">
+                    <li><i class="icon-telephone114"></i>01 900 234 567 - 68</li>
+                    <li><a href="javascript:void(0)"><i class="icon-icons142"></i>info@aqarmgt.com</a></li>
+                    <li><a href="javascript:void(0)"><i class="icon-browser2"></i>www.aqarmgt.com</a></li>
+                    <li><i class="icon-icons74"></i>Dammam, Eastern Province, Saudi Arabia</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!--CopyRight-->
+        <div class="container">
+              <div class="row">
+                <div class="copyright index2">
+                  <div class="copyright_inner">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-7">
+                          <p>Copyright &copy; 2018 <span>AqarMGT</span>. All rights reserved.</p>
+                        </div>
+                        <div class="col-md-5 text-right">
+                          <!--<p>Designed by <a href="#.">Brighthemes</a></p>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+        </div>
+    </section>
+<!--
+      <div class="col-sm-12">
+        <div class="group-button-search">
+          <a data-toggle="collapse" href=".search-propertie-filters" class="more-filter">
+            <i class="fa fa-plus text-1" aria-hidden="true"></i><i class="fa fa-minus text-2 hide" aria-hidden="true"></i>
+            <div class="text-1">Show more search options</div>
+            <div class="text-2 hide">less more search options</div>
+          </a>
+        </div>
+        <div class="search-propertie-filters collapse">
+          <div class="container-2">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="search-form-group white bottom10">
+                  <input type="checkbox" name="check-box" />
+                  <span>Features</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="search-form-group white bottom10">
+                  <input type="checkbox" name="check-box" />
+                  <span>Balcony</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="search-form-group white bottom10">
+                  <input type="checkbox" name="check-box" />
+                  <span>Gas Heat</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="search-form-group white bottom10">
+                  <input type="checkbox" name="check-box" />
+                  <span>Washer, Dryer</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="search-form-group white bottom10">
+                  <input type="checkbox" name="check-box" />
+                  <span>TV Cable</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="search-form-group white bottom10">
+                  <input type="checkbox" name="check-box" />
+                  <span>Swimming Pool</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="search-form-group white bottom10">
+                  <input type="checkbox" name="check-box" />
+                  <span>Home Theater</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+
+                
+               
+       
+              </form>
+            </div>
+          </div>
+            
+            
+        </div>
+      </div>
+    </section>
+    
+    
+<!--bg image -->
+
+<!--
+<section class="banner">
+  <div class="container">
+	<div class="row">
+	  <div class="col-sm-8 text-left">
+		<h1 class="uppercase"><span>We don’t just find Great Deals</span> We Create them</h1>
+		<p class="bottom30">We have Properties in these Areas Discover your place to live Get started in few clicks</p>
+	  </div>
+	  
+	  <div class="col-sm-4">
+		<div class="row">
+
+-->
+
+		  <!--<form class="callus clearfix border_radius">
+			
+			  <div class="single-query form-group">
+				<div class="intro">
+				  <select>
+					<option selected="" value="any">Location</option>
+					<option>All areas</option>
+					<option>Bayonne </option>
+					<option>Greenville</option>
+					<option>Manhattan</option>
+					<option>Queens</option>
+					<option>The Heights</option>
+				  </select>
+				</div>
+			  </div>
+			
+			
+			  <div class="single-query form-group top10">
+				<input type="text" class="keyword-input" placeholder="Keyword (e.g. 'office')">
+			  </div>
+			
+			
+			  <button type="submit" class="btn-blue border_radius top15">Search</button>
+			
+		  </form>-->
+          
+          <!--
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+	-->
+    
+
+	
+
+
+<div class="cd-testimonials-all">
+  <div class="cd-testimonials-all-wrapper">
+	<ul>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit totam saepe iste maiores neque animi molestias nihil illum nisi temporibus.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nostrum nisi, doloremque error hic nam nemo doloribus porro impedit perferendis. Tempora, distinctio hic suscipit. At ullam eaque atque recusandae modi fugiat voluptatem laborum laboriosam rerum, consequatur reprehenderit omnis, enim pariatur nam, quidem, quas vel reiciendis aspernatur consequuntur. Commodi quasi enim, nisi alias fugit architecto, doloremque, eligendi quam autem exercitationem consectetur.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quibusdam eveniet, molestiae laborum voluptatibus minima hic quasi accusamus ut facere, eius expedita, voluptatem? Repellat incidunt veniam quaerat, qui laboriosam dicta. Quidem ducimus laudantium dolorum enim qui at ipsum, a error.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptates officiis tempore quae officia! Beatae quia deleniti cum corporis eos perferendis libero reiciendis nemo iusto accusamus, debitis tempora voluptas praesentium repudiandae laboriosam excepturi laborum, nisi optio repellat explicabo, incidunt ex numquam. Ullam perferendis officiis harum doloribus quae corrupti minima quia, aliquam nostrum expedita pariatur maxime repellat, voluptas sunt unde, inventore.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit totam saepe iste maiores neque animi molestias nihil illum nisi temporibus.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quia quas, quis illo adipisci voluptate ex harum iste commodi nulla dolor. Eius ratione quod ab!</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dignissimos iure rem fugiat consequuntur officiis.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At temporibus tempora necessitatibus reiciendis provident deserunt maxime sit id. Dicta aut voluptatibus placeat quibusdam vel, dolore.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis iusto sapiente, excepturi velit, beatae possimus est tenetur cumque fugit tempore dolore fugiat! Recusandae, vel suscipit? Perspiciatis non similique sint suscipit officia illo, accusamus dolorum, voluptate vitae quia ea amet optio magni voluptatem nemo, natus nihil.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quasi officiis pariatur, fugit minus omnis animi ut assumenda quod commodi, ad a alias maxime unde suscipit magnam, voluptas laboriosam ipsam quibusdam quidem, dolorem deleniti id.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At temporibus tempora necessitatibus reiciendis provident deserunt maxime sit id. Dicta aut voluptatibus placeat quibusdam vel, dolore.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	  <li class="cd-testimonials-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque tempore ipsam, eos suscipit nostrum molestias reprehenderit, rerum amet cum similique a, ipsum soluta delectus explicabo nihil repellat incidunt! Minima magni possimus mollitia deserunt facere, tempore earum modi, ea ipsa dicta temporibus suscipit quidem ut quibusdam vero voluptatibus nostrum excepturi explicabo nulla harum, molestiae alias. Ab, quidem rem fugit delectus quod.</p>
+		<div class="cd-author">
+		  <img src="images/author.png" alt="Author image">
+		  <ul class="cd-author-info">
+			<li>PERSON NAME</li>
+			<li>CEO, CompanyName</li>
+		  </ul>
+		</div>
+		<!-- cd-author -->
+	  </li>
+	</ul>
+  </div>
+  <!-- cd-testimonials-all-wrapper -->
+  <a href="javascript:void(0)" class="close-btn">Close</a>
+</div>
+
+<!--Footer-->
+<!--
+<footer class="footer_fourth">
+  <div class="container contacts">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <div class="info-box first">
+          <div class="icons"><i class="icon-telephone114"></i></div>
+          <ul class="text-center">
+            <li><strong>Phone Number</strong></li>
+            <li>+966 123 456 789 - 11</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4 text-center">
+        <div class="info-box">
+          <div class="icons"><i class="icon-icons74"></i></div>
+          <ul class="text-center">
+            <li><strong>Demo Street, Al Khobar</strong></li>
+            <li>Kingdom Of Saudi Arabia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4 text-center">
+        <div class="info-box">
+          <div class="icons"><i class="icon-icons142"></i></div>
+          <ul class="text-center">
+            <li><strong>Email Address</strong></li>
+            <li><a href="#.">customercare@aqarmgt.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container top20">
+    <!--<div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="footer_panel bottom30">
+          <a href="#." class="logo bottom30"><img src="images/logo-footer.png" alt="logo"></a>
+          <p class="bottom15">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="footer_panel bottom30">
+          <h4 class="bottom30">Quick Links</h4>
+          <table style="width:100%;">
+            <tbody>
+              <tr>
+                <td>
+                  <ul class="links">
+                    <li><a href="#."><i></i>About</a></li>
+                    <li class="active"><a href="#."><i></i>News</a></li>
+                    <li><a href="#."> <i></i>Contacts</a></li>
+                    <li><a href="#."><i></i>Testimonials</a></li>
+                    <li><a href="#."><i></i>Typography</a></li>
+                  </ul>
+                </td>
+                <td class="text-right">
+                  <ul class="links text-left">
+                    <li><a href="#."><i></i>Services</a></li>
+                    <li class="active"><a href="#."><i></i>Careers</a></li>
+                    <li><a href="#."><i></i>Our team</a></li>
+                    <li><a href="#."><i></i>Shop</a></li>
+                    <li><a href="#."><i></i>Our approach</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="footer_panel bottom30">
+          <h4 class="bottom30">Latest News</h4>
+          <div class="media bottom30">
+            <div class="media-body">
+              <a href="#.">Nearest mall in high tech Goes your villa</a>
+              <span><i class="icon-clock4"></i>Feb 22, 2017</span>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-body">
+              <a href="#.">Nearest mall in high tech Goes your villa</a>
+              <span><i class="icon-clock4"></i>Feb 22, 2017</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="footer_panel bottom30">
+          <h4 class="bottom30">Subscribe</h4>
+          <p>Sign up with your email to get latest updates and offers</p>
+          <form class="top30">
+            <input class="search" placeholder="Enter your Email" type="search">
+            <a class="button_s" href="#.">
+            <i class="icon-mail-envelope-open"></i>
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>-->
+    <!--CopyRight-->
+    <!--
+    <div class="copyright_simple">
+      <div class="row">
+        <div class="col-md-6 col-sm-5 top20 bottom20">
+          <p>Copyright &copy; 2017 <span>Aqarmgt</span>. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 col-sm-7 text-right top15 bottom10">
+          <ul class="social_share">
+            <li><a href="#." class="facebook"><i class="icon-facebook-1"></i></a></li>
+            <li><a href="#." class="twitter"><i class="icon-twitter-1"></i></a></li>
+            <li><a href="#." class="google"><i class="icon-google4"></i></a></li>
+            <li><a href="#." class="linkden"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#." class="vimo"><i class="icon-vimeo3"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+-->
+
+
+
+<script src="js/jquery-2.1.4.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootsnav.js"></script>
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/range-Slider.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.cubeportfolio.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.themepunch.tools.min.js"></script>
+<script src="js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/revolution.extension.layeranimation.min.js"></script>
+<script src="js/revolution.extension.navigation.min.js"></script>
+<script src="js/revolution.extension.parallax.min.js"></script>
+<script src="js/revolution.extension.slideanims.min.js"></script>
+<script src="js/revolution.extension.video.min.js"></script>
+<script src="js/selectbox-0.2.min.js"></script>
+<script src="js/zelect.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/functions.js"></script>
+
+
+<script src="js/neary-by-place.js"></script> 
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAOBKD6V47-g_3opmidcmFapb3kSNAR70U&libraries=places"></script>
+<script src="js/google-map.js"></script> 
+
+</body>
+</html>
