@@ -576,7 +576,7 @@ a.back-to:hover, a.back-to:focus{ background:#c3894a;}
 }
 #filters-property .cbp-filter-item{
 	background:transparent;
-	color: #212121;
+	color: #fff;
 	font-weight:800;
 	text-transform: uppercase;
 	border:none;
