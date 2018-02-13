@@ -2,8 +2,7 @@
 //LOADER
 $(window).on("load", function() {
     "use strict";
-    $("#loaderi").fadeOut(500);
-
+    $("#loaderi").fadeOut(400);
 });
 
 

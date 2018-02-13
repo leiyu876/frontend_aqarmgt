@@ -3924,9 +3924,12 @@ footer .footer_panel .media-body span > i{
     margin: 0;
     list-style: none;
     width: 90px;
-    position: relative;
+    position: absolute;
     padding: 0;
-    height: 50px
+    background: green;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -45px;
 }
 #loaderi
  ul li {
